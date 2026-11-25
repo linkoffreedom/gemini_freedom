@@ -3,7 +3,7 @@
   "DeviceRegion": "CH",
   "EgressRegion": "CH",
   "MigrateDataStoreDirectory": "/var/lib/psiphon",
-  "ListenInterface": "127.0.0.1",
+  "ListenInterface": "lo",
   "LocalHttpProxyPort": 8087,
   "LocalSocksProxyPort": 8086,
   "NetworkID": "949F2E962ED7A9165B81E977A3B4758B",
