@@ -2,7 +2,7 @@
 set -euo pipefail
 
 # === Настройки репозитория (замени на свой GitHub) ===
-GITHUB_REPO="${GITHUB_REPO:-linkoffreedom/gemini_freedon}"
+GITHUB_REPO="${GITHUB_REPO:-linkoffreedom/gemini_freedom}"
 GITHUB_BRANCH="${GITHUB_BRANCH:-main}"
 RAW_BASE="https://raw.githubusercontent.com/${GITHUB_REPO}/${GITHUB_BRANCH}"
 RELEASE_BASE="https://github.com/${GITHUB_REPO}/releases/latest/download"
