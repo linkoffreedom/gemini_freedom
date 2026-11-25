@@ -184,7 +184,7 @@ with open(cfg_path, "r", encoding="utf-8") as f:
     d = json.load(f)
 d["EgressRegion"] = region
 d["DeviceRegion"] = region
-d["ListenInterface"] = "lo"
+d.pop("ListenInterface", None)
 d["LocalSocksProxyPort"] = port
 tmp = cfg_path + ".tmp"
 with open(tmp, "w", encoding="utf-8") as f:
